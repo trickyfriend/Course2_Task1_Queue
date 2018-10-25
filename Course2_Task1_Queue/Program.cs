@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//Создать очередь, информационные поля которой содержат строки  из файла (список фамилий учащихся, упорядоченный по алфавиту). 
+//Вставить в этот список новую фамилию с сохранением  порядка.
+
 namespace Course2_Task1_Queue
 {
     static class Program
@@ -16,7 +19,7 @@ namespace Course2_Task1_Queue
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new TheForm());
         }
     }
 }
